@@ -1,0 +1,18 @@
+
+---
+
+## assets/style.css
+
+```css
+body.vista{background:linear-gradient(#cfe8ff,#9fc7ff);font-family: Tahoma, Arial, sans-serif}
+.window{width:600px;margin:40px auto;border:2px solid #00184a;border-radius:6px;box-shadow:0 8px 30px rgba(0,0,0,0.3);background:linear-gradient(#eef6ff,#d9eefe)}
+.titlebar{background:linear-gradient(#1b4f9b,#0b2a66);color:#fff;padding:10px 12px;font-weight:bold;border-bottom:1px solid rgba(255,255,255,0.2);border-top-left-radius:4px;border-top-right-radius:4px}
+.content{padding:18px}
+.footer{background:#f1f1f1;border-top:1px solid #ccc;padding:8px 12px;border-bottom-left-radius:6px;border-bottom-right-radius:6px;font-size:12px;color:#333;text-align:right}
+.btn{background:linear-gradient(#ffffff,#d0e7ff);border:1px solid #6fa8ff;padding:6px 10px;border-radius:4px;cursor:pointer;margin-left:6px}
+.btn.small{padding:4px 6px;font-size:12px;margin-left:8px}
+.input, input{display:block;padding:8px;border:1px solid #aaa;border-radius:3px;margin:6px 0}
+.output{margin-top:12px;padding:10px;background:#fff;border:1px solid #a0bfe8;border-radius:4px}
+.titlebar, .footer, .btn{font-family: Tahoma, Arial, sans-serif}
+.form input{width:100%}
+.row{display:flex;gap:8px}
